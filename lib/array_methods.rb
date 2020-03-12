@@ -13,7 +13,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array1)
-array1.copy = array
+array1.clone = array
 for i in array do 
   if array[0] > array[1]
     array.delete_at(1)
