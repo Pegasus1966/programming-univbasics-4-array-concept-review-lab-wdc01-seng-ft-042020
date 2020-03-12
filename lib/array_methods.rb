@@ -12,8 +12,7 @@ def find_element_index(array, value_to_find)
   end
 end
 
-def find_max_value(array)
-  array1 = array
+def find_max_value(array1)
 for i in array1 do 
   if array1[0] > array1[1]
     array1.delete_at(1)
@@ -27,8 +26,7 @@ for i in array1 do
   end
 end
 
-def find_min_value(array)
-  array2 = array
+def find_min_value(array2)
   for i in array2 do
     if array2[0] < array2[1]
       array2.delete_at(1)
