@@ -13,16 +13,17 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array1)
-for i in array1 do 
-  if array1[0] > array1[1]
-    array1.delete_at(1)
+array1.copy = array
+for i in array do 
+  if array[0] > array[1]
+    array.delete_at(1)
   else
-    array1.delete_at(0)
+    array.delete_at(0)
   end
   end
-  if array1[0] > array1[1]
-    array1[0]
-  else array1[1]
+  if array[0] > array[1]
+    array[0]
+  else array[1]
   end
 end
 
