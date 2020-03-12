@@ -25,6 +25,7 @@ for i in array1 do
   else array1[1]
   end
 end
+end
 
 def find_min_value(array2)
   for i in array2 do
