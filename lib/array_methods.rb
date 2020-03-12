@@ -33,11 +33,11 @@ def find_min_value(array2)
     else
       array2.delete_at(0)
     end
+  end
     if array2[0] < array2[1]
       array2[0]
     else array2[1]
     end
-  end
 end
  
  
