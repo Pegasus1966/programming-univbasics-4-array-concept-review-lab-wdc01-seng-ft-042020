@@ -27,12 +27,18 @@
 # end
 
 def find_min_value(array)
-  x = array[0]
- for i in array
-  if array[0] > array[1]
-  array.delete_at[0]
-end
-end
+  for i in array do
+    if array[0] < array[1]
+      array.delete_at(1)
+    else
+      array.delete_at(0)
+    end
+    end
+    if array[0] < array[1]
+      array[0]
+    else array[1]
+    end
+  end
  
  
  
